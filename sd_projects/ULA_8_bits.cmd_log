@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/ULA_8_bits.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/ULA_8_bits.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/ULA_8_bits.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/ULA_8_bits.syr" 

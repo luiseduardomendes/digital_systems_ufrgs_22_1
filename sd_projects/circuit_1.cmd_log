@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+xst -intstyle ise -ifn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.xst" -ofn "X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/circuit_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 circuit_1.ngc circuit_1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o circuit_1_map.ncd circuit_1.ngd circuit_1.pcf 
+par -w -intstyle ise -ol high -mt off circuit_1_map.ncd circuit_1.ncd circuit_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml circuit_1.twx circuit_1.ncd -o circuit_1.twr circuit_1.pcf 

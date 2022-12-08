@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity reg_n_bits is
-	 Generic( width : positive);
+	 Generic( width : positive := 8 );
     Port ( D : in  STD_LOGIC_VECTOR (width-1 downto 0);
            E : in  STD_LOGIC;
            R : in  STD_LOGIC;
