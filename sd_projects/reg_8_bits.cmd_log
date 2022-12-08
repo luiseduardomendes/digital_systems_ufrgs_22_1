@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/aluno/lepm/sd_projects/reg_8_bits.xst" -ofn "C:/Users/aluno/lepm/sd_projects/reg_8_bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 reg_8_bits.ngc reg_8_bits.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o reg_8_bits_map.ncd reg_8_bits.ngd reg_8_bits.pcf 
+par -w -intstyle ise -ol high -mt off reg_8_bits_map.ncd reg_8_bits.ncd reg_8_bits.pcf 
+xst -intstyle ise -ifn "C:/Users/aluno/lepm/sd_projects/reg_8_bits.xst" -ofn "C:/Users/aluno/lepm/sd_projects/reg_8_bits.syr" 
