@@ -1,0 +1,4 @@
+vhdl work "reg_n_bits.vhd"
+vhdl work "counter_n_bits.vhd"
+vhdl work "alu_n_bits.vhd"
+vhdl work "circuit1.vhd"

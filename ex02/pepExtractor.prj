@@ -1,0 +1,4 @@
+work	"alu_n_bits.vhd"
+work	"circuit1.vhd"
+work	"counter_n_bits.vhd"
+work	"reg_n_bits.vhd"

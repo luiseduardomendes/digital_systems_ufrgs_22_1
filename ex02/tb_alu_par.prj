@@ -1,0 +1,2 @@
+vhdl work "netgen/par/alu_n_bits_timesim.vhd"
+vhdl work "tb_alu.vhd"
