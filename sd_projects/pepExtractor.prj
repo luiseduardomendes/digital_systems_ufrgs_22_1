@@ -1,1 +1,4 @@
-work	"ula_8_bits.vhd"
+work	"ULA_8_bits.vhd"
+work	"circuit_1.vhd"
+work	"counter_4_bits.vhd"
+work	"reg_8_bits.vhd"

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-08T15:20:38</DateModified>
+  <DateModified>2022-12-13T23:30:57</DateModified>
   <ModuleName>circuit_1</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects/iseconfig/circuit_1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>X:/Downloads/digital_systems_ufrgs_22_1-main/digital_systems_ufrgs_22_1-main/sd_projects</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/ise/digital_systems_ufrgs_22_1/sd_projects/iseconfig/circuit_1.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/ise/digital_systems_ufrgs_22_1/sd_projects/</ImplementationReportsDirectory>
   <DateInitialized>2022-12-08T15:20:37</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
